@@ -1,1 +1,5 @@
-}}class Activity extends android.app.Activity{ protected void onCreate(Bundle savedInstanceState){ super.onCreate(savedInstanceState); if(Build.VERSION.SDK_INT >= 21) setTheme(android.R.style.Theme_Holo_Light); else setTheme(android.R.style.Theme_Material_Light);
+}}class Activity extends android.app.Activity{
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        if(Build.VERSION.SDK_INT >= 21) setTheme(android.R.style.Theme_Holo_Light);
+        else setTheme(android.R.style.Theme_Material_Light);
