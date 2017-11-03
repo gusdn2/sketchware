@@ -3,3 +3,6 @@
         super.onCreate(savedInstanceState);
         if(Build.VERSION.SDK_INT < 21) setTheme(android.R.style.Theme_Holo_Light);
         else setTheme(android.R.style.Theme_Material_Light);
+    }
+    protected void showMessage(String s){ Toast.makeText(this, s, Toast.LENGTH_SHORT).show()
+    //...
